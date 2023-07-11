@@ -126,11 +126,11 @@ main {
   appearance: none;
   -webkit-appearance: none;
   height: 10px;
-  background-color: #ddd;
+  background: #dddddd;
   outline: none;
   border-radius: 8px;
   width: 100%;
-  opacity: 0.7s;
+  opacity: 0.7;
   transition: opacity 0.2s;
   margin-top: 1rem;
 }
@@ -149,7 +149,7 @@ main {
   cursor: pointer;
 }
 
-.customize .password-length .slider::-moz-slider-thumb {
+.customize .password-length .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
   border-radius: 25px;
